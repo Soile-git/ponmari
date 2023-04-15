@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&family=Source+Serif+Pro:wght@400;600;700;900&family=Titan+One&display=swap');
+
+
+body {
+  background-color: #fcbad3;
+  margin: 0;
+  padding: 0;
+  background-image: url(./components/bgpic.png);
+  background-repeat: repeat;
+}
+
 .App {
   text-align: center;
 }
@@ -7,11 +18,64 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logotext {
+  font-family: 'Titan One', cursive;
+  font-size: 3.4vmax;
+  color: #fcbad3;
+  text-decoration: none;
+  margin-left: 8px;
+  text-align: center;
+  justify-content: center;
 }
+
+.model {
+  width: 100%;
+  max-height: 780px;
+}
+
+.header {
+  font-family: 'Titan One', cursive;
+  font-size: 4.4vmax;
+}
+
+.intro {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.2vmax;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.otsikko {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2.1vmax;
+  font-weight: bolder;
+}
+
+.hinnat {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2vmax;
+}
+
+.osoite {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2.1vmax;
+  font-weight: bolder;
+}
+
+.osoiterivi {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.0vmax;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.osoiterivi a {
+  font-family: 'Source Serif Pro', serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +90,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {
